@@ -11,23 +11,10 @@
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>3.8.4</version>
+      <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
   </dependencies>
-  <distributionManagement>  
-	<repository>
-		<id>nexus</id>
-		<name>mvn-release-Repo</name>
-		<url>http://13.201.73.44:8081/repository/mvn-release-repo/</url>
-	</repository>
-	
-	<snapshotRepository>
-		<id>nexus</id>
-		<name>mvn-snapshot-Repo</name>
-		<url>http://13.201.73.44:8081/repository/mvn-snapshot-repo/</url>
-	</snapshotRepository>	
-	</distributionManagement>
   <build>
     <finalName>01-Maven-WebApp</finalName>
   </build>
